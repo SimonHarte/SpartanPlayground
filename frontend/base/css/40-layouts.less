@@ -134,11 +134,15 @@
 	* phone: 5
 	**/
 
-	@media @m-medium-down {
+	@media @m-small {
 		.grid-col-set(col, @grid-cols / 5);
 	}
 
-	@media @m-large {
+	@media @m-medium {
 		.grid-col-set(col, @grid-cols / 7);
+	}
+
+	@media @m-large {
+		.grid-col-set(col, @grid-cols / 9);
 	}
 }
