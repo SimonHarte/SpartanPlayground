@@ -1,32 +1,21 @@
 SpartanPlayground
 ================================
 
-## Requirements
+### Requirements
 
-### Install Node
+- **Install Node**
+	from [nodejs.org](http://nodejs.org/)
 
-[nodejs.org](http://nodejs.org/)
+- **Install XTC CLI**
+	`npm i -g xtc-cli`
 
-### Install XTC CLI
+### Startup
 
-```
-npm i -g xtc-cli
-```
+- **Run XTC Server**
+	`xtc start`
 
-## Startup
+- **Run FE Build**
+	`xtc build`
 
-### Run XTC Server
-
-```
-xtc start
-```
-
-### Run FE Build
-
-```
-xtc build
-```
-
-### Open in Browser
-
-[`localhost:3000`](http://localhost:3000)
+- **Open in Browser**
+	[`localhost:3000`](http://localhost:3000)
