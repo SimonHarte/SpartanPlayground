@@ -25,6 +25,6 @@ SpartanPlayground
 > Create 'develop' branch
 
 - adjust [61-grid.less](https://github.com/SimonHarte/SpartanPlayground/tree/master/frontend/base/css/61-grid.less) if needed
-- solve [playground examples](http://localhost:3000/playground) to get into Spartan
+- solve [playground examples](http://localhost:3000/playground) to get yourself accustomed to Spartan
 
 > Refer to [the docs](https://github.com/SimonHarte/SpartanGrid) for help!
