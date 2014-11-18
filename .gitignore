@@ -15,12 +15,12 @@ frontend/public/build/
 # Node Modules
 #/node_modules/**/test*
 #!/node_modules/xtc/node_modules/mocha/**/test.js
-/node_modules/**/docs/
-/node_modules/**/cli/
+#/node_modules/**/docs/
+#/node_modules/**/cli/
 !/node_modules/xtc/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/
-/node_modules/**/.npmignore
-/node_modules/**/.travis.yml
-/node_modules/**/.jshintrc
-/node_modules/**/README*
+#/node_modules/**/.npmignore
+#/node_modules/**/.travis.yml
+#/node_modules/**/.jshintrc
+#/node_modules/**/README*
 
 ########################################
