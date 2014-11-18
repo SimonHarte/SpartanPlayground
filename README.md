@@ -5,9 +5,11 @@ SpartanPlayground
 
 - **Install Node**
 	from [nodejs.org](http://nodejs.org/)
-
 - **Install XTC CLI**
 	`npm i -g xtc-cli`
+
+
+> Update node with [n](https://github.com/tj/n) and npm via `npm i -g npm` (warnings may be ignored)
 
 ### Startup
 
