@@ -111,7 +111,7 @@ In a terminal change to the project folder and start the server with `xtc start`
 
 There are some things you can do that will make development so much more easy:
 
-- You can [run Node directly in your IDE](http://www.jetbrains.com/webstorm/webhelp/node-js.html). Make sure the Node.js plugin is installed and then create a 'Run' configuration (or multiple) pointing to app.js. Set your environment variables as needed.
+- You can [run Node directly in your IDE](http://www.jetbrains.com/webstorm/webhelp/node-js.html). Make sure the Node.js plugin is installed and then create a 'Run' configuration (or multiple) pointing to server.js. Set your environment variables as needed.
 - In WS 7 use the new terminal window to run **Grunt** (and npm) directly in the IDE. Any errors during asset parsing will be immediately be visible to you. Just make sure you have installed Grunt CLI globally with `npm install -g grunt-cli`. In PHPStorm you'll also need to install the terminal window plugin.
 - Use the Handlebars/Mustache plugin (included in WS 7). It will give you code insight and syntax highlighting for .hbs files. I also recommend setting the commenting style to Handlebars comments once you have the plugin.
 - Allow comments in CJSON config files. In the IDE preferences search for "validate json" and select "Inspections" in the sidebar, then click on the text "Validate JSON" in the tree. Disable the "Warn about comments in JSON" checkbox in the sub-options.
@@ -251,7 +251,7 @@ markup. This includes HTML5 `data-` attributes.
 You can enable **annotations** in the HTML output around modules in the config. The annotation displays the module name,
 the template file name, the filesystem path and repository URL to the module.
 
-the **indentation** of included modules can be controlled with the `indent` attribute using integer values. Nested child modules are indented automatically.
+The **indentation** of included modules can be controlled with the `indent` attribute using integer values. Nested child modules are indented automatically.
 
 Using the `noWrapper=true` attribute on a module include will prevent creation of the wrapper element and module annotation.
 This is useful when creating markup-only modules in base layouts, e.g a HTML HEAD module including the doctype. You can

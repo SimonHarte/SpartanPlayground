@@ -4,7 +4,7 @@
   "private": true,
   "repository": "https://github.com/SimonHarte/SpartanPlayground.git",
   "dependencies": {
-    "xtc": "0.8.0-beta8",
+    "xtc": "0.8.0-rc1",
     "generator-xtc": "*",
     "hipsum": "~0.2.0"
   },
@@ -12,6 +12,6 @@
     "generator-xtc"
   ],
   "main": "server.js",
-  "engines": { "node" : ">=0.10.0" },
+  "engines": { "node" : "~0.10.30" },
   "configPath": "config/"
 }

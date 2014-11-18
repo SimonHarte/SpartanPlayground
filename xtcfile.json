@@ -1,9 +1,9 @@
 {
   "xtcSrc": {
-    "type": "npm",
-    "src": "xtc@0.8.0-beta8"
+    "type": "tarball",
+    "src": "https://github.com/MarcDiethelm/xtc/archive/develop.tar.gz"
   },
-  "xtcVersion": "0.8.0-beta8",
+  "xtcVersion": "0.8.0-rc1",
   "name": "SpartanPlayground",
   "repositoryUri": "https://github.com/SimonHarte/SpartanPlayground.git",
   "repositoryBranch": "master",
