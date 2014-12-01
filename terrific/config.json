@@ -1,14 +1,7 @@
 {
 	"assets": {
 		"app.css": [
-			"+assets/css/variables.*",
-			"+assets/css/mixins.less",
-			"!**/somefile.*",
-			"!components/modules/Test*/*",
-			"assets/css/cssreset.css",
-			"assets/css/*.*",
-			"components/modules/*/css/*.*",
-			"components/modules/*/css/skins/*.*"
+			"assets/css/imports.less"
 		],
 		"app.js": [
 			"!**/somefile.*",
