@@ -54,6 +54,9 @@
 		@grid-gutter-width-percent: round(percentage(@grid-gutter / (@max-content-width + @grid-gutter)), @spartan-grid-precision);
 		content: '@{grid-gutter-width-percent}';
 	}
+	._max-columns:after {
+		content: '@{grid-cols}';
+	}
 	hr {
 		border: none;
 		border-bottom: 1px solid lighten(@color-copy, 50%);
